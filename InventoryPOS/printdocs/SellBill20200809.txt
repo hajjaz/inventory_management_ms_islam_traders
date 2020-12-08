@@ -1,0 +1,24 @@
+           Hajjaz's Shop
+  
+   Plot# 35,Sonargaon Janapoth Road
+   Sector# 12, Uttara, Dhaka 1230
+   Vat Reg# 18011057968 Receipt# 3
+   Date: 09/08/2020, 06:11 PM
+---------------------------------------
+Qty Description         UnitP   Price
+---------------------------------------
+6   Dithan M45 1kg      650.0   3900.0
+                        Total = 3900.0
+                        Due =   3900.0
+                        Payable =0.0
+                        Previous Due =670.0
+                        Current Due =4570.0
+     
+       Thank You For Coming Here!
+  Cell No: 01834268714, 01731267763.
+       Developed By www.ElseCode.com (01674829764).
+  
+  
+  
+  
+

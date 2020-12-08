@@ -1,0 +1,17 @@
+           New Shad Restora
+  
+   User: 
+   Date: 13/02/2018, 08:34 PM
+---------------------------------------
+Qty Description         UnitP   Price
+---------------------------------------
+2   Hot Chocolate       90.0    180.0
+1   Latte               90.0    90.0
+1   Cappuccino          90.0    90.0
+                        Total = 360.0
+     
+  
+  
+  
+  
+

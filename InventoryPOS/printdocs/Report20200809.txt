@@ -1,0 +1,37 @@
+                  Hajjaz's Shop
+  
+        Plot# 35,Sonargaon Janapoth Road
+          Sector# 12, Uttara, Dhaka 1230
+     
+---------------------Sells Report-------------------------
+          Date:  09/08/2020, 06:40 PM
+---------------------Sells Report-------------------------
+     
+     
+-----------------------------------------------------------
+Description            Total Sell             Total Buy     
+-----------------------------------------------------------
+Fartilizer             
+Pasticide              13520                  32000
+
+Total=                 13520.0                32000.0
+VAT(+)=                
+Discount(-)=           
+TotalDueBill(-)=       4570                   
+RemainingDue=          2900                   
+DueCollection(+)=      1670                   
+Total=                 -21380.0               
+AdvanceSalary(-)=      
+CardPayment(-)=        
+Total=                 -21380.0               
+
+     
+     
+     
+     
+       Developed By www.ElseCode.com (01674829764).
+  
+  
+  
+  
+

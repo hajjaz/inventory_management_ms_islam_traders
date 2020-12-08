@@ -1,0 +1,27 @@
+           New Shad Restora
+  
+   Plot# 35,Sonargaon Janapoth Road
+   Sector# 12, Uttara, Dhaka 1230
+   Vat Reg# 18011057968 Receipt# 2
+   Date: 04/07/2020, 09:51 PM
+---------------------------------------
+Qty Description         UnitP   Price
+---------------------------------------
+1   Water 5             5.0     5.0
+1   Khichuri  Rice      40.0    40.0
+1   Mug Dal             20.0    20.0
+1   Beaf Mezbani        150.0   150.0
+                        Total = 215.0
+                        Due =   215.0
+                        Payable =0.0
+                        Previous Due =128.0
+                        Current Due =343.0
+     
+       Thank You For Coming Here!
+  Cell No: 01834268714, 01731267763.
+       Developed By www.ElseCode.com (01674829764).
+  
+  
+  
+  
+

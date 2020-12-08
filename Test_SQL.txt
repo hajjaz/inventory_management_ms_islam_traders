@@ -1,0 +1,27 @@
+select * from inv_transaction order by bill_no desc
+select * from inv_transaction where trunc(tran_date) = trunc(sysdate) order by bill_no desc 
+and sell_price = 0 bill_no = 248
+
+select to_char( tran_date, 'MM/DD/YYYY HH24:MI:SS' ) from inv_transaction where trunc(tran_date) = trunc(sysdate) and bill_no = 277
+ALTER SESSION SET nls_date_format = 'dd-MMM-yyyy HH24:MI:SS';
+ALTER SESSION SET nls_date_format = 'MM/DD/YYYY HH24:MI:SS';
+select * from inv_transaction where trunc(tran_date) = trunc(sysdate) and sell_price = 0
+
+//*****************Exporting table in Excel************************\\
+select * from inv_transaction order by tran_date desc
+select * from inv_vat order by vat_date desc
+select * from inv_discount order by disc_date desc
+select * from bill_due order by bill_date desc
+select * from due_collection order by bill_date desc
+select * from inv_employee_advance order by adv_date desc
+
+
+
+
+
+
+drop table test_due_collection;
+create table test_due_collection(amount varchar(20), serial varchar(20), bill_date date);
+
+drop table test_due_collection;
+create table test_due_collection(amount varchar(20), serial varchar(20), bill_date date, bill_duedate date);

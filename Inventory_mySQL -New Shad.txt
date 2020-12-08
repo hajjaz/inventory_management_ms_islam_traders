@@ -1,0 +1,77 @@
+alter system set processes=200 scope=spfile;
+
+clear screen;
+drop table inv_category;
+create table inv_category(cat_id int, cat_name varchar(100), cat_picture varchar(100));
+/
+
+drop table inv_fooditem;
+create table inv_fooditem(item_id int, cat_id int, item_name varchar(100), item_price varchar(50),item_picture varchar(100),item_quantity int);
+/
+
+drop table inv_transaction;
+create table inv_transaction(tran_id int, item_name varchar(100), item_quantity varchar(50), sell_price varchar(50), tran_date date, cat_name varchar(100));
+/
+ALTER TABLE inv_transaction ADD bill_no varchar(45);
+/
+
+drop table inv_user;
+create table inv_user(user_id int, user_name varchar(100), user_password varchar(100));
+/
+
+drop table inv_discount;
+create table inv_discount(disc_amount varchar(100), disc_date date, bill_no varchar(45));
+/
+
+drop table inv_vat;
+create table inv_vat(vat_amount varchar(100), vat_date date, bill_no varchar(45));
+/
+
+drop table inv_vat_transaction;
+create table inv_vat_transaction(tran_id int, item_name varchar(100), item_quantity varchar(50), sell_price varchar(50),tran_date date, cat_name varchar(100));
+
+/
+
+drop table inv_supplier;
+create table inv_supplier(supp_id int, supp_name varchar(100), supp_contact varchar(50), supp_item varchar(100));
+/
+
+drop table inv_employee;
+create table inv_employee(emp_id int, emp_name varchar(100), emp_contact varchar(50), emp_designation varchar(100),emp_salary int);
+/
+
+drop table inv_employee_advance;
+create table inv_employee_advance(id int, emp_name varchar(100),adv_salary int, adv_date date);
+/
+
+drop table inv_salary;
+create table inv_salary(id int, emp_name varchar(100),absent_day varchar(100),emp_salary varchar(100),adv_salary varchar (100),guest_bill varchar(100), payable_amount varchar(100), remarks varchar(100), salary_month varchar(20));
+/
+
+drop table bill_serial;
+create table bill_serial(serial int, bill_date date);
+/
+
+drop table bill_due;
+create table bill_due(cusomerName varchar(100), amount int, serial int, bill_date date);
+/
+
+drop table due_collection;
+create table due_collection(amount varchar(20), serial varchar(20), bill_date date);
+
+
+/////////////////////////////////////////////////////
+drop table buy_category;
+create table buy_category(cat_id int, cat_name varchar(100), cat_picture varchar(100));
+/
+
+drop table buy_fooditem;
+create table buy_fooditem(item_id int, cat_id int, item_name varchar(100), item_price varchar(50),item_picture varchar(100),item_quantity int);
+/
+
+drop table buy_transaction;
+create table buy_transaction(tran_id int, item_name varchar(100), item_quantity varchar(50), sell_price varchar(50), tran_date date, cat_name varchar(100),bill_no varchar(45));
+/
+
+drop table buy_bill_serial;
+create table buy_bill_serial(serial int, bill_date date);

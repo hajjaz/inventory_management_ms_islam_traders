@@ -1,0 +1,24 @@
+           Hajjaz's Shop
+  
+   Plot# 35,Sonargaon Janapoth Road
+   Sector# 12, Uttara, Dhaka 1230
+   Vat Reg# 18011057968 Receipt# 11
+   Date: 29/07/2020, 04:29 PM
+---------------------------------------
+Qty Description         UnitP   Price
+---------------------------------------
+4   Urea                25.0    100.0
+                        Total = 100.0
+                        Vat   = 15.0
+                        Total = 115.0
+                        Discount =15.0
+                        Total = 100.0
+     
+       Thank You For Coming Here!
+  Cell No: 01834268714, 01731267763.
+       Developed By www.ElseCode.com (01674829764).
+  
+  
+  
+  
+

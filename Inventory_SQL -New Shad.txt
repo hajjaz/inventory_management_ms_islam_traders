@@ -1,0 +1,95 @@
+alter system set processes=200 scope=spfile;
+
+clear screen;
+drop table inv_category;
+create table inv_category(cat_id number(20), cat_name varchar2(100), cat_picture varchar2(100));
+/
+
+drop table inv_item;
+create table inv_item(item_id number(20), cat_id number(20), item_name varchar2(100), item_price varchar2(50), item_selling_price varchar2(50), item_picture varchar2(100),item_quantity number(20));
+
+ALTER TABLE inv_item ADD item_retailer_price varchar2(50);
+
+create table inv_item(item_id number(20), cat_id number(20), item_name varchar2(100), item_price varchar2(50), item_selling_price varchar2(50), item_picture varchar2(100),item_quantity number(20), item_retailer_price varchar2(50));
+/
+
+drop table inv_transaction;
+create table inv_transaction(tran_id number(20), item_name varchar2(100), item_quantity varchar2(50), sell_price varchar2(50), tran_date date, cat_name varchar2(100), bill_no varchar2(45), customer_id varchar2(45));
+/
+
+drop table inv_user;
+create table inv_user(user_id number(20), user_name varchar2(100), user_password varchar2(100), user_level number(20));
+/
+
+drop table inv_discount;
+create table inv_discount(disc_amount varchar2(100), disc_date date, bill_no varchar2(45), customer_id varchar2(45));
+/
+
+drop table inv_vat;
+create table inv_vat(vat_amount varchar2(100), vat_date date, bill_no varchar2(45));
+/
+
+drop table inv_vat_transaction;
+create table inv_vat_transaction(tran_id number(20), item_name varchar2(100), item_quantity varchar2(50), sell_price varchar2(50),tran_date date, cat_name varchar2(100), customer_id varchar2(45));
+/
+
+drop table inv_supplier;
+create table inv_supplier(supp_id number(20), supp_name varchar2(100), supp_contact varchar2(50), supp_item varchar2(100));
+/
+
+drop table inv_customer;
+create table inv_customer(customer_id number(20) NOT NULL, customer_name varchar2(100), customer_contact varchar2(50), customer_address varchar2(300), customer_email varchar2(50), due_amount number(20), CONSTRAINT customers_pk PRIMARY KEY (customer_id));
+/
+
+drop table inv_employee;
+create table inv_employee(emp_id number(20), emp_name varchar2(100), emp_contact varchar2(50), emp_designation varchar2(100),emp_salary number(20));
+/
+
+drop table inv_employee_advance;
+create table inv_employee_advance(id number(20), emp_name varchar2(100),adv_salary number(20), adv_date date);
+/
+
+drop table inv_salary;
+create table inv_salary(id number(20), emp_name varchar2(100),absent_day varchar2(100),emp_salary varchar2(100),adv_salary varchar2 (100),guest_bill varchar2(100), payable_amount varchar2(100), remarks varchar2(100), salary_month varchar2(20));
+/
+
+drop table bill_serial;
+create table bill_serial(serial number(20), bill_date date);
+/
+
+drop table bill_due;
+create table bill_due(customerName varchar(100), amount number(20), serial number(20), bill_date date, customer_id varchar2(45));
+/
+
+drop table due_bill_for_dashboard;
+create table due_bill_for_dashboard(cusomerName varchar(100), amount number(20), serial number(20), bill_date date, customer_id varchar2(45));
+/
+
+drop table due_collection;
+create table due_collection(amount varchar(20), serial varchar(20), bill_date date, bill_duedate date, customer_id varchar2(45));
+/
+
+drop table activity_log;
+create table activity_log(userName varchar(100), activity_date date, activity varchar(500), remarks varchar(500));
+/
+
+drop table customer_activity;
+create table customer_activity(customer_id number(20), bill_no varchar2(45), total_amount varchar2(50), due_amount varchar2(50), discount_amount varchar2(50), due_collection varchar2(50), activity_date date);
+/
+
+drop table bill_card;
+create table bill_card(amount int, serial int, bill_date date);
+/
+
+drop table subscription;
+create table subscription(subscription_expire_date date);
+update subscription set subscription_expire_date = to_date('01-JUN-30')
+
+/////////////////////////////////////////////////////
+
+drop table buy_transaction;
+create table buy_transaction(tran_id number(20), item_name varchar2(100), item_quantity varchar2(50), sell_price varchar2(50), tran_date date, cat_name varchar2(100),bill_no varchar2(45));
+/
+
+drop table buy_bill_serial;
+create table buy_bill_serial(serial number(20), bill_date date);

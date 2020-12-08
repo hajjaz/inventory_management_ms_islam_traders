@@ -1,0 +1,51 @@
+                  New Shad Restora
+  
+        Plot# 35,Sonargaon Janapoth Road
+          Sector# 12, Uttara, Dhaka 1230
+     
+---------------------Sells Report-------------------------
+          Date:  18/02/2018, 07:14 PM
+---------------------Sells Report-------------------------
+     
+     
+-----------------------------------------------------------
+Description            Total Sell             Total Buy     
+-----------------------------------------------------------
+Breakfast              
+Lunch                  100
+Dinner                 
+Evening                
+Snacks                 
+Catering/Parcel        
+Somocha                
+RicePacket             
+MudiBazar              
+Sweets                 
+Canteen                
+JuiceandCoffee         180
+
+Total=                 180.0                  100.0
+VAT(+)=                
+Discount(-)=           
+TotalDueBill(-)=       
+RemainingDue=          
+DueCollection(+)=      
+Total=                 80.0                   
+AdvanceSalary(-)=      
+CardPayment(-)=        
+Total=                 80.0                   
+Expense=               20
+GrossTotal=            60.0                   
+RemainingCash=         50
+Short=                 10.0                   
+
+     
+     
+     
+     
+       Powered By ElseCode(01674829764).
+  
+  
+  
+  
+

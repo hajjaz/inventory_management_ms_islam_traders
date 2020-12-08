@@ -1,0 +1,41 @@
+                  M/S Islam Traders
+  
+        Vulli Bazar, Thakurgaon
+          Vulli Bazar, Thakurgaon
+     
+---------------------Sells Report-------------------------
+          Date:  22/08/2020, 08:05 PM
+---------------------Sells Report-------------------------
+     
+     
+-----------------------------------------------------------
+Description            Total Sell             Total Buy     
+-----------------------------------------------------------
+Fartilizer             125
+Pasticide              7150                   
+
+Total=                 7275.0                 0.0
+VAT(+)=                
+Discount(-)=           25
+TotalDueBill(-)=       600
+RemainingDue=          600
+DueCollection(+)=      
+Total=                 6650.0                 
+AdvanceSalary(-)=      500
+CardPayment(-)=        
+Total=                 6150.0                 
+Expense=               150
+GrossTotal=            6000.0                 
+RemainingCash=         5900                   
+Short=                 100.0                  
+
+     
+     
+     
+     
+       Developed By www.ElseCode.com (01674829764).
+  
+  
+  
+  
+

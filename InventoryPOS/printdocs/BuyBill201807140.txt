@@ -1,0 +1,17 @@
+           New Shad Restora
+  
+   User: jafar
+   Date: 14/07/2018, 11:45 AM
+---------------------------------------
+Qty Description         UnitP   Price
+---------------------------------------
+1   Porota              10.0    10.0
+1   Vegetable           20.0    20.0
+1   Halua               20.0    20.0
+                        Total = 50.0
+     
+  
+  
+  
+  
+
